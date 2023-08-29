@@ -66,12 +66,12 @@ class TV:
     
     
     @classmethod
-    def setNumTV(self, num):
+    def setNumTV(cls, num):
 
         TV.numTV = num
     
     @classmethod
-    def getNumTV(self):
+    def getNumTV(cls):
 
         return TV.numTV
     
