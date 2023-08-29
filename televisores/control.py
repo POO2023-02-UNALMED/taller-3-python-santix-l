@@ -30,13 +30,13 @@ class Control:
 
         self._tv.turnOn()
     
-    def setCanal(self):
+    def setCanal(self, canal):
 
-        self._tv.setCanal()
+        self._tv.setCanal(canal)
     
-    def setVolumen(self):
+    def setVolumen(self, volumen):
 
-        self._tv.setVolumen()
+        self._tv.setVolumen(volumen)
 
     def enlazar(self, tv):
 
