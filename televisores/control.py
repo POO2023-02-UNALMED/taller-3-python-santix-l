@@ -44,11 +44,11 @@ class Control:
 
         tv.setControl(self)
     
-    def setTV(self, t):
+    def setTv(self, t):
 
         self._tv = t
 
-    def getTV(self):
+    def getTv(self):
         
         return self._tv
 
